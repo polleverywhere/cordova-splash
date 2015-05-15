@@ -1,16 +1,14 @@
-# cordova-splash
+# cordova-splash (PollEv fork)
 
-Automatic splash screen generator for Cordova. Create a splash screen (2208x2208) once in the root folder of your Cordova project and use cordova-splash to automatically crop and copy it for all the platforms your project supports (currenty works with iOS and Android).
+Automatic splash screen generator for Cordova. Create a splash screen (2208x2208) once in the root folder of your Cordova project and use cordova-splash to automatically crop and copy it for iOS.
 
 ### Installation
 
-     $ sudo npm install cordova-splash -g
+Run `npm install` in your mobile project directory.
 
 ### Usage
 
-Create a ```splash.png``` file in the root folder of your cordova project and run:
-
-     $ cordova-splash
+`cordova-splash` is automatically run in the cordova build script.
 
 ### Requirements
 
