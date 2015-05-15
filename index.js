@@ -42,7 +42,7 @@ var getPlatforms = function (projectName) {
  */
 var settings = {};
 settings.CONFIG_FILE = 'config.xml';
-settings.SPLASH_FILE   = 'splash.png';
+settings.SPLASH_FILE   = 'cordova-build/platforms/ios/splash.png';
 
 /**
  * @var {Object} console utils
